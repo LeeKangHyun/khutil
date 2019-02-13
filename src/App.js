@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { GlobalStyled } from './globalStyled';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+        <GlobalStyled />
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
